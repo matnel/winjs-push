@@ -1,0 +1,16 @@
+function insert(item, user, request) {
+
+    var channelTable = tables.getTable('Channel');
+    channelTable.read({
+            success: function(channels) {
+                channels.forEach( function(channel) {
+                    console.log('Pushing ' + channel.uri);
+                    console.log( item );
+                     push.wns.sendRaw(channel.uri, item.data);
+                } );
+            }
+    });
+    
+    request.respond(200, 'OK');
+
+}
