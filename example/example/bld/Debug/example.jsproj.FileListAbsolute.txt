@@ -1,0 +1,13 @@
+C:\Users\demo\Documents\GitHub\winjs-push\example\example\bin\Debug\resources.pri
+C:\Users\demo\Documents\GitHub\winjs-push\example\example\bin\Debug\AppxManifest.xml
+C:\Users\demo\Documents\GitHub\winjs-push\example\example\bin\Debug\example.build.appxrecipe
+C:\Users\demo\Documents\GitHub\winjs-push\example\example\bld\Debug\priconfig.xml.intermediate
+C:\Users\demo\Documents\GitHub\winjs-push\example\example\bld\Debug\layout.resfiles.intermediate
+C:\Users\demo\Documents\GitHub\winjs-push\example\example\bld\Debug\resources.resfiles.intermediate
+C:\Users\demo\Documents\GitHub\winjs-push\example\example\bld\Debug\pri.resfiles.intermediate
+C:\Users\demo\Documents\GitHub\winjs-push\example\example\bld\Debug\priconfig.xml
+C:\Users\demo\Documents\GitHub\winjs-push\example\example\bld\Debug\layout.resfiles
+C:\Users\demo\Documents\GitHub\winjs-push\example\example\bld\Debug\resources.resfiles
+C:\Users\demo\Documents\GitHub\winjs-push\example\example\bld\Debug\pri.resfiles
+C:\Users\demo\Documents\GitHub\winjs-push\example\example\bld\Debug\LanguageQualifiers.txt
+C:\Users\demo\Documents\GitHub\winjs-push\example\example\bld\Debug\ProjectArchitectures.txt
