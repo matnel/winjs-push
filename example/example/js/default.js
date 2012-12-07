@@ -11,8 +11,7 @@
     app.onactivated = function (args) {
         if (args.detail.kind === activation.ActivationKind.launch) {
             if (args.detail.previousExecutionState !== activation.ApplicationExecutionState.terminated) {
-                // TODO: This application has been newly launched. Initialize
-                // your application here.
+                createPush();
             } else {
                 // TODO: This application has been reactivated from suspension.
                 // Restore application state here.
@@ -32,3 +31,24 @@
 
     app.start();
 })();
+
+// create and handle push notifications
+function createPush() {
+
+    // create a new push object
+    var push = new Push();
+
+    // overwrite the default push notification reciever
+    push.recieve = function (data) {
+        var p = $('<p>', { html: data.line } );
+        $('#chat-content').prepend( p );
+    }
+
+    // connect sending stuff
+    $('#chat-send').on('click', function () {
+        var t = $('#chat').val();
+        var data = { line : t };
+        push.send( '', data );
+        $('#chat').val('');
+    } );
+}
